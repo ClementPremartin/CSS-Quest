@@ -5,12 +5,17 @@ body {
 ul {
     list-style: none;
     background-color: rgba(29, 29, 29, 0.815);
-   }
-
-ul li {
     display: flex;
     justify-content: flex-start;
-    color: rgb(192, 192, 192);
+    color: rgba(192, 192, 192, 0.76);
+}
+
+ul li {
+    padding: 1%
+}
+
+.white {
+    background-color: rgba(211, 211, 211, 0.582);
 }
 
 .carousel {
@@ -26,19 +31,28 @@ h2 {
     color: rgba(71, 71, 71, 0.651);
 }
 
-.Headtabs {
-    display: grid;
-    grid-template-columns: 100px 200px 200px;
-    gap: 10px;
-    
-}
-.article {
+.boite {
     display: flex;
     flex-direction: row;
-    color: lightgray;
+    justify-content: space-around;
+    margin:5%;
+
 }
+
+article{
+    background-color: lightgray;
+    padding :15%;
+    border-radius: 25px;
+}    
+
 
 form {
     display: flex;
     flex-direction: column;
+    border-top: solid gray 4px;
+
+}
+
+.input {
+    margin:3%
 }
